@@ -1,4 +1,10 @@
 *{margin: 0; padding: 0;}
 
 body {
+    width: 1024px; margin: 0 auto; background: url("img/bg_nav.jpg") repeat-x;
 }
+
+#container{float: left; width: 1024px; margin: 0 auto; padding: 0;}
+#containerHeader{float: left; width: 1024px; height: 80px;}
+.headerlogotipo{float: left; width: 250px; margin: 5px 0 0 0;}
+.headerlogotipo img{float: left; width: 250px;}
