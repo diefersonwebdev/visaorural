@@ -6,5 +6,43 @@ body {
 
 #container{float: left; width: 1024px; margin: 0 auto; padding: 0;}
 #containerHeader{float: left; width: 1024px; height: 80px;}
-.headerlogotipo{float: left; width: 250px; margin: 5px 0 0 0;}
+.headerlogotipo{float: left; width: 250px; margin: 5px 0 0 0; position: absolute;}
 .headerlogotipo img{float: left; width: 250px;}
+
+.headerNav{float: right; width: 660px; margin: 20px 0 0 0;}
+.headerNav ul{list-style: none; }
+.headerNav ul li{float: left; margin: 0 0 0 20px;}
+.headerNav ul li a{text-decoration: none; font-size: 20px; font-family:'Roboto', sans-serif; color: #FFF; text-transform: uppercase; 
+                   font-weight: bold; }
+.headerNav ul li a:hover{border-bottom: 4px solid #FFF;}
+
+.headerBanner{float: left; width: 100%; margin: 15px 0 0 0;}
+.headerBanner img{ float: left; width: 1024px;  }
+
+
+#containerContent{float: left; width: 100%; margin: 350px 0 0 0;}
+
+#contentDestaque{ float: left; width: 520px; margin: 130px 0 0 0; }
+#contentDestaque img{ float: left; width: 520px; margin: 5px 0 0 0; }
+#contentDestaque span{float: right; font-size: 18px; font-family: 'Roboto', sans-serif; color: #4cff00; margin-top: -50px;}
+
+#containerCotacoes{float: right; width: 495px; margin: 140px 0 0 0px;}
+#containerCotacoes span{ float: left; font-size: 26px; font-family: 'Roboto', sans-serif; color: #02852b; font-weight: bold; margin: 0 0 0 50px;
+                         text-transform: uppercase; }
+.cotacao{ float: left; width: 495px;  margin: 5px 0 0 0; background: #02852b; border-radius: 5px; }
+.cotacao ul{list-style: none;}
+.cotacao ul li  { display: inline; margin: 0 0 0 25px;}
+.cotacao resumo{display: block;}
+.cotacao ul li a {text-decoration: none; color: #FFF; font-size: 16px; font-family: 'Roboto', sans-serif; text-transform: uppercase;}
+
+#containerProjetos{ float: left; width: 530px; margin: 10px 0 0 0;}
+#containerProjetos span{ float: left; font-size: 20px; font-family: 'Roboto', sans-serif; color:#02852b; 
+                         text-transform: uppercase; font-weight: bold; }
+
+#containerProjetosDestaque{ float: left; width: 334px; }
+#containerProjetosDestaque img{float: left; width: 334px;}
+
+
+#projetosConteudo{float: right; margin: 24px 0 0 0;}
+#projetosConteudo ul{list-style: none;}
+
