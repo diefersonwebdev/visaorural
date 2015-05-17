@@ -46,3 +46,11 @@ body {
 #projetosConteudo{float: right; margin: 24px 0 0 0;}
 #projetosConteudo ul{list-style: none;}
 
+
+#containerNoticias{ float: left; width: 1024px; margin: 10px 0 0 0; }
+#containerNoticias span{float: left; font-size: 22px; font-family: 'Roboto', sans-serif; color:#02852b; 
+                        font-weight: bold; text-transform: uppercase;}
+
+#containerNoticias ul{list-style: none; margin: 30px 0 0 0;}
+#containerNoticias ul li{float: left; display: inline; margin: 0 0 0 10px; width: 330px;}
+#containerNoticias ul li img{float: left; width: 330px;}
